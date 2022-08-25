@@ -4,14 +4,18 @@ import NavBar from "./components/NavBar";
 import TopBar from './components/TopBar';
 
 
+
 function App() { 
 
-  return (
+    return (
     <div>
       <TopBar />
       <NavBar/>
-      <ItemListConteiner greeting = 'Hola CoderHouse' />
+      <ItemListConteiner/>
       
+      
+      
+
     </div>
   );
 }
