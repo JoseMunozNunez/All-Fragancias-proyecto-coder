@@ -1,20 +1,15 @@
 import './App.css';
-import ItemListConteiner from './components/ItemListConteiner';
-import NavBar from "./components/NavBar";
-import TopBar from './components/TopBar';
+import ItemListConteiner from './componentsDesafios/ItemListContainer/ItemListConteiner';
+import NavBar from './componentsDesafios/NavBar/NavBar'
 
 
 
-function App() { 
-
-    return (
+function App() {  
+ 
+  return (
     <div>
-      <TopBar />
       <NavBar/>
-      <ItemListConteiner/>
-      
-      
-      
+      <ItemListConteiner/>    
 
     </div>
   );

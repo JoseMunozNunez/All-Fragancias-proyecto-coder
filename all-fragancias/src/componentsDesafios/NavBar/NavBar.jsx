@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import CartWidget from './CartWidget';
+import CartWidget from '../CartWidget/CartWidget';
 
 
 const pages = ['Inicio', 'Nosotros', 'Contacto', 'Tienda'];

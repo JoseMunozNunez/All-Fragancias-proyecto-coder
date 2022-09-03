@@ -1,9 +1,9 @@
 import React,{useEffect, useState} from 'react';
 
 
-function ItemCount( iniciar, stock, onAdd) {
+function ItemCount( {initial, stock, onAdd}) {
 
-    const [count, setCount] = useState(parseInt(iniciar))
+    const [count, setCount] = useState(parseInt(initial))
 
     const aumentar  = ()=>{
         setCount(count + 1)
@@ -14,9 +14,9 @@ function ItemCount( iniciar, stock, onAdd) {
     }
 
     useEffect(() => {
-      setCount(parseInt(iniciar));
+      setCount(parseInt(initial));
 
-    }, [iniciar])
+    }, [initial])
     
 
 
