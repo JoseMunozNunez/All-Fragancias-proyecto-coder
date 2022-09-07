@@ -1,18 +1,12 @@
-import './App.css';
-import ItemListConteiner from './componentsDesafios/ItemListContainer/ItemListConteiner';
-import NavBar from './componentsDesafios/NavBar/NavBar'
+import React from 'react'
+import NavBar from './components/NavBar/NavBar'
 
-
-
-function App() {  
- 
+function App() {
   return (
     <div>
-      <NavBar/>
-      <ItemListConteiner/>    
-
+        <NavBar/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
